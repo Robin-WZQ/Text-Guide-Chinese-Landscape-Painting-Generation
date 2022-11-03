@@ -118,7 +118,7 @@ print("a chinese landscape painting of a landscape with mountains and a river")
 
 ![pic4](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/1.png)
 
-## Conclusion
+## That'all
 
 *ooh! ooh! ooh!*
 
