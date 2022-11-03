@@ -125,5 +125,7 @@ print("a chinese landscape painting of a landscape with mountains and a river")
 *It's cool!*
 
 ## TO DO
+- [x] edit README file
+- [x] release the finetuning code
 - [ ] release the checkpoint
 - [ ] release the dataset
