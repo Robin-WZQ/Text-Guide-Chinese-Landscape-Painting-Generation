@@ -16,13 +16,12 @@ If you're just after the model, code, or dataset, see:
 
 - [stable-diffusion](https://github.com/CompVis/stable-diffusion)
 - [Lambda Diffusers](https://github.com/LambdaLabsML/lambda-diffusers)
-- [Training code](https://github.com/justinpinkney/stable-diffusion)
 
 ## Hardware
 
 Just as the tutorial said, running Stable Diffusion itself is not too demanding by today's standards, and fine tuning the model doesn't require anything like the hardware on which it was originally trained. 
 
-Here, I use 1xA6000 GPUs on [恒源云](https://gpushare.com/store/hire?create=true) (a Chinese GPU sharing platform) and run training for around 35 steps which takes about nearly 12 hours to run.  Training should be able to run on a single or lower spec GPUs (as long as there is >24GB of VRAM), but you might need to adjust batch size and gradient accumulation steps to fit your GPU. For more details on training code please see the [fine-tuning notebook](https://github.com/LambdaLabsML/examples/blob/main/stable-diffusion-finetuning/pokemon_finetune.ipynb).
+Here, I use 1xA6000 GPUs on [恒源云](https://gpushare.com/store/hire?create=true) (a Chinese GPU sharing platform) and run training for around 35 steps which takes about nearly 12 hours to run.  Training should be able to run on a single or lower spec GPUs (as long as there is >24GB of VRAM), but you might need to adjust batch size and gradient accumulation steps to fit your GPU. For more details on training code please see the [fine-tuning notebook](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/code.ipynb).
 
 ## Data!
 
@@ -41,11 +40,11 @@ print(sample["text"])
 
 ## Get ready!
 
-Now we have a dataset we need the original model weights which are available for [download here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original), listed as `sd-v1-4-full-ema.ckpt`. Next we need to set up the code and environment for training. We're going to use a fork of the original training code which has been modified to make it a bit more friendly for fine-tuning purposes: [justinpinkney/stable-diffusion](https://github.com/justinpinkney/stable-diffusion).
+Now I have a dataset I need the original model weights which are available for [download here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original), listed as `sd-v1-4-full-ema.ckpt`. 
 
 Stable Diffusion uses yaml based configuration files along with a few extra command line arguments passed to the `main.py` function in order to launch training.
 
-We've created a [base yaml configuration file](https://github.com/justinpinkney/stable-diffusion/blob/main/configs/stable-diffusion/pokemon.yaml) that runs this fine-tuning example. If you want to run on your own dataset it should be simple to modify, the main part you would need to edit is the data configuration, here's the relevant excerpt from the custom yaml file:
+i also created a [base yaml configuration file](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/landscape_paintings.yaml) that runs this fine-tuning example. If you want to run on your own dataset it should be simple to modify, the main part you would need to edit is the data configuration, here's the relevant excerpt from the custom yaml file:
 
 ```
 data:
