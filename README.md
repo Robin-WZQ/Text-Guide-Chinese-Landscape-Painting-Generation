@@ -81,7 +81,7 @@ data:
 
 ## Train!
 
-```
+```cmd
 # Run training
 !(python main.py \
     -t \
@@ -99,7 +99,7 @@ data:
 
 ## Test!
 
-```
+```cmd
 # Run the model
 !(python scripts/txt2img.py \
     --prompt 'a chinese landscape painting of a landscape with mountains and a river' \
@@ -110,7 +110,7 @@ data:
     --ckpt 'logs/2022-11-01T17-08-20_landscape_paintings/checkpoints/last.ckpt')
 ```
 
-```
+```python
 from PIL import Image
 im = Image.open("outputs/generated_pl/grid-0000.png").resize((1024, 256))
 display(im)
