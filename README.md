@@ -123,3 +123,7 @@ print("a chinese landscape painting of a landscape with mountains and a river")
 *ooh! ooh! ooh!*
 
 *It's cool!*
+
+## TO DO
+- [ ] release the checkpoint
+- [ ] release the dataset
