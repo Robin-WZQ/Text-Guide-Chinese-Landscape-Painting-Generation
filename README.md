@@ -4,14 +4,17 @@
 
 **Chinese Landscape Painting** is a kind of Chinese traditional art form which is totally different from western art. However, just like western art, it have both aesthetic and artistic value. For me, a Chinese student who is just getting started with AI, it sounds great to combine edge-cutting technique with traditional culture. 
 
-I follow [the tutorial of LambdaLabsML]([examples/stable-diffusion-finetuning at main · LambdaLabsML/examples (github.com)](https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning)), they generated excellent Pokémon. What if I use the same method in Chinese Landscape painting? Here are some examples of the sort of outputs the trained model can produce, and the prompt used: 
+I follow [the tutorial of LambdaLabsML](https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning), they generated excellent Pokémon. What if I use the same method in Chinese Landscape painting? Here are some examples of the sort of outputs the trained model can produce, and the prompt used: 
+
+![pic1](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/3.png)
+
+![pic2](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/2.png)
 
 > They look nice, model has learned enough features of Landscape Paintings obviously!
 
 If you're just after the model, code, or dataset, see:
 
 - [stable-diffusion](https://github.com/CompVis/stable-diffusion)
-
 - [Lambda Diffusers](https://github.com/LambdaLabsML/lambda-diffusers)
 - [Training code](https://github.com/justinpinkney/stable-diffusion)
 
@@ -32,6 +35,7 @@ sample = load_dataset("imagefolder", data_dir="home/to/your/path", split="train"
 display(sample["image"].resize((256, 256)))
 print(sample["text"])
 ```
+![pic3](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/1000_res.jpg)
 
 > 'a chinese lanscape painting of a waterfall and trees'
 
@@ -112,6 +116,8 @@ im = Image.open("outputs/generated_pl/grid-0000.png").resize((1024, 256))
 display(im)
 print("a chinese landscape painting of a landscape with mountains and a river")
 ```
+
+![pic4](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/1.png)
 
 ## Conclusion
 
