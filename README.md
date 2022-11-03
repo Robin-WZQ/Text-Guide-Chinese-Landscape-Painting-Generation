@@ -1,6 +1,6 @@
 # Fine Tuning Stable Diffusion
 
-> Hey, guys! This is my second project on Chinese Landscape Painting Generation.  Hopefully you can enjoy it!
+> Hey, guys! This is my second project on Chinese Landscape Painting generation.  Hopefully you can enjoy it!
 
 **Chinese Landscape Painting** is a kind of Chinese traditional art form which is totally different from western art. However, just like western art, it have both aesthetic and artistic value. For me, a Chinese student who is just getting started with AI, it sounds great to combine edge-cutting technique with traditional culture. 
 
