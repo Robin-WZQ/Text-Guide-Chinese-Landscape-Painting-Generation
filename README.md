@@ -1,6 +1,6 @@
 # Fine Tuning Stable Diffusion
 
-> Hey, guys! This is my second project on Chinese Landscape Painting.  Hopefully you can enjoy it!
+> Hey, guys! This is my second project on Chinese Landscape Painting. Hope you can enjoy it!
 
 **Chinese Landscape Painting** is a kind of Chinese traditional art form which is totally different from western art. However, just like western art, it have both aesthetic and artistic value. For me, a Chinese student who is just getting started with AI, it sounds great to combine edge-cutting technique with traditional culture. 
 
@@ -44,7 +44,7 @@ Now I have a dataset, then I need the original model weights which are available
 
 Stable Diffusion uses yaml based configuration files along with a few extra command line arguments passed to the `main.py` function in order to launch training.
 
-i also created a [base yaml configuration file](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/landscape_paintings.yaml) that runs this fine-tuning example. If you want to run on your own dataset it should be simple to modify, the main part you would need to edit is the data configuration, here's the relevant excerpt from the custom yaml file:
+I also created a [base yaml configuration file](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/landscape_paintings.yaml) that runs this fine-tuning example. If you want to run on your own dataset it should be simple to modify, the main part you would need to edit is the data configuration, here's the relevant excerpt from the custom yaml file:
 
 ```
 data:
