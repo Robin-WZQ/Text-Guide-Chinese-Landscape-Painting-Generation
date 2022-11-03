@@ -70,10 +70,10 @@ data:
       target: ldm.data.simple.TextOnly
       params:
         captions:
-        - "a chinese lanscape painting of a landscape with mountains in the background"
-        - "a chinese lanscape painting of a building with trees in front of it"
-        - "a chinese lanscape painting of a mountain landscape with trees"
-        - "a chinese lanscape painting of a mountain scene with trees and a bridge"
+        - "a chinese landscape painting of a landscape with mountains in the background"
+        - "a chinese landscape painting of a building with trees in front of it"
+        - "a chinese landscape painting of a mountain landscape with trees"
+        - "a chinese landscape painting of a mountain scene with trees and a bridge"
         output_size: 512
         n_gpus: 1 # small hack to sure we see all our samples
 ```
