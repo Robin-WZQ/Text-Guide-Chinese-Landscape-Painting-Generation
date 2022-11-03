@@ -36,7 +36,7 @@ print(sample["text"])
 ```
 ![pic3](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/1000_res.jpg)
 
-> 'a chinese lanscape painting of a waterfall and trees'
+> 'a chinese landscape painting of a waterfall and trees'
 
 ## Get ready!
 
