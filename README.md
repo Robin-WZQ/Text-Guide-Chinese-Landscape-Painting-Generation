@@ -21,7 +21,7 @@ If you're just after the model, code, or dataset, see:
 
 Just as the tutorial said, running Stable Diffusion itself is not too demanding by today's standards, and fine tuning the model doesn't require anything like the hardware on which it was originally trained. 
 
-Here, I use 1xA6000 GPUs on [恒源云](https://gpushare.com/store/hire?create=true) (a Chinese GPU sharing platform) and run training for around 35 epoches which takes about nearly 12 hours to run.  Training should be able to run on a single or lower spec GPUs (as long as there is >24GB of VRAM), but you might need to adjust batch size and gradient accumulation steps to fit your GPU. For more details on training code please see the [fine-tuning notebook](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/code.ipynb).
+Here, I use 1xA6000 GPUs on [恒源云](https://gpushare.com/store/hire?create=true) (a Chinese GPU sharing platform) and run training for around 35 epoches which takes about nearly 12 hours to run.  Training should be able to run on a single or lower spec GPUs (as long as there is >24GB of VRAM, and this version needs nearly 36GB of VARM), but you might need to adjust batch size and gradient accumulation steps to fit your GPU. For more details on training code please see the [fine-tuning notebook](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/code.ipynb).
 
 ## Data!
 
