@@ -6,7 +6,7 @@
 
 This repository is no longer updated.
 
-Please refer to the main repository for dataset and checkpoints downloading.
+Please refer to the [main repository](https://github.com/Robin-WZQ/CCLAP) for dataset and checkpoints downloading.
 
 ========== Attention ==========
 
