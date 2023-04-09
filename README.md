@@ -2,6 +2,14 @@
 
 > Hey, guys! This is my second project on Chinese Landscape Painting. Hope you can enjoy it!
 
+========== Attention ==========
+
+This repository is no longer updated.
+
+Please refer to the main repository for dataset and checkpoints downloading.
+
+========== Attention ==========
+
 **Chinese Landscape Painting** is a kind of Chinese traditional art form which is totally different from western art. However, just like western art, it have both aesthetic and artistic value. For me, a Chinese student who is just getting started with AI, it sounds great to combine edge-cutting technique with traditional culture. 
 
 I follow [the tutorial of LambdaLabsML](https://github.com/LambdaLabsML/examples/tree/main/stable-diffusion-finetuning), they generated excellent Pokémon. What if I use the same method in Chinese Landscape painting? Here are some examples of the sort of outputs the trained model can produce, and the prompt used: 
@@ -118,14 +126,8 @@ print("a chinese landscape painting of a landscape with mountains and a river")
 
 ![pic4](https://github.com/Robin-WZQ/Chinese-Landscape-painting-generation/blob/main/assets/1.png)
 
-## That's all
-
-*ooh! ooh! ooh!*
-
-*It's cool!*
-
 ## TO DO
 - [x] edit README file
 - [x] release the finetuning code
-- [ ] release the checkpoint
-- [ ] release the dataset
+- [x] release the checkpoint
+- [x] release the dataset
