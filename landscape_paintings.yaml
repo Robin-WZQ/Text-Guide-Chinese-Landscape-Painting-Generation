@@ -78,7 +78,7 @@ data:
     train:
       target: ldm.data.simple.hf_dataset
       params:
-        name: Chinese-Landscape-Painting-Style-Transfer
+        name: Chinese-Landscape-Painting
         image_transforms:
         - target: torchvision.transforms.Resize
           params:
